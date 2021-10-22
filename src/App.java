@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
 
-        reverseInputString();
+        reverseInputtedString();
 
 
     }
 
-    private static void reverseInputString() {
+    // Takes a string input from user, reverses the input and prints it back out
+    private static void reverseInputtedString() {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
+
+
 
 
     }
